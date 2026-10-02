@@ -1,88 +1,541 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <script
-      src="https://kit.fontawesome.com/60a2d17e51.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="assets/css/normalize.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap"
-      rel="stylesheet"
-    />
-    <title>IGUANA</title>
-  </head>
-  <body>
-    <header class="cabeza">
-      <h1 class="titulo">IGUANAS</h1>
-    </header>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Iguanas | Enciclopedia Visual & Fauna Tropical</title>
+  <meta name="description" content="Descubre la anatomía, características biológicas, hábitat y fascinante fisiología de las iguanas tropicales. Guía visual y herpetológica moderna." />
+  <meta name="keywords" content="iguanas, iguanidae, reptiles tropicales, herpetología, tercer ojo iguana, fauna exótica, naturaleza" />
+  <meta name="author" content="José Manuel Perdomo" />
 
-    <main>
-      <img src="assets/img/bg-header.jpg" alt="iguanas" class="portada" />
-    </main>
+  <!-- Google Fonts: Syne (Display), Plus Jakarta Sans (Body), Space Grotesk (Mono/Badge) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
 
-    <section class="text">
-      <div class="descripcion">
-        <p>
-          La iguana es un reptil perteneciente a la familia Iguanadiae. Su
-          tamaño está entre los 15 cm hasta los 2 metros de largo y puede llegar
-          a pesar unos 15 kg. Cuando están jóvenes tienen una coloración con
-          tonos verdes y al ir madurando predomina un color grisáceo con crestas
-          o espinas en su espalda.
-        </p>
-        <p>
-          La alimentación de la iguana va variando según su etapa de vida, pero
-          la mayor parte de sus años son herbívoras. Viven en lugares tropicales
-          con mucha vegetación y es un animal que puede ser domesticado.
-        </p>
-      </div>
+  <!-- Estilos Modernizados -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
 
-      <div class="imgtext">
-        <img src="assets/img/iguana-1.jpg" alt="iguana" />
-      </div>
-    </section>
+  <!-- Luces Ambientales de Fondo -->
+  <div class="ambient-glow glow-top-left" aria-hidden="true"></div>
+  <div class="ambient-glow glow-top-right" aria-hidden="true"></div>
+  <div class="ambient-glow glow-center" aria-hidden="true"></div>
 
-    <section class="iconos">
-      <h2 class="icontext">CARACTERISTICAS</h2>
-      <div class="icon">
-        <i class="far fa-eye fa-5x"></i>
-        <a class="linkicon" href="https://es.wikipedia.org/wiki/Tercer_ojo_(misticismo)" target="_blank" rel="noopener noreferrer" title="tercer ojo"><h3>Tercer ojo</h3></a> 
-      </div>
-      <div class="icon">
-        <i class="far fa-hand-peace fa-5x"></i>
-        <a class="linkicon" href="https://es.dreamstime.com/im%C3%A1genes-de-archivo-libres-de-regal%C3%ADas-iguana-pac%C3%ADfica-de-tschudi-image25184549" target="_blank" rel="noopener noreferrer" title="tercer ojo"><h3>Pacificas</h3></a>
-      </div>
-      <div class="icon">
-        <i class="fas fa-paint-brush fa-5x"></i>
-        <a class="linkicon" href="https://todosobremascotas.com/iguanas/las-iguanas-cambian-de-color/" target="_blank" rel="noopener noreferrer"><h3>Cambio de color</h3></a>
-        
-      </div>
-    </section>
+  <!-- Navegación Sticky Superior -->
+  <header class="site-header" id="header">
+    <div class="container nav-wrap">
+      <a href="#inicio" class="brand" aria-label="Inicio">
+        <div class="brand-icon-box">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"></path>
+            <path d="M7 10h.01"></path>
+            <path d="M17 10h.01"></path>
+            <path d="M7 15c1.5 2 4.5 2 6 0"></path>
+            <path d="M12 2v4"></path>
+            <path d="M17 4l-2 3"></path>
+            <path d="M7 4l2 3"></path>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">IGUANAS</span>
+          <span class="brand-sub">Fauna Tropical • Iguanidae</span>
+        </div>
+      </a>
 
-    <div class="foto">
-     <a href="https://github.com/josperdev" rel="noopener noreferrer" target="_blank"><img src="assets/img/iguana-2.jpg" alt="foto" class="galeria"/></a> 
-     <a href="https://twitter.com/JosePerdomo256" rel="noopener noreferrer" target="_blank"><img src="assets/img/iguana-3.jpg" alt="foto" class="galeria" /></a> 
-     <a href="https://www.linkedin.com/in/jose-manuel-perdomo-459179138/" rel="noopener noreferrer" target="_blank"><img src="assets/img/iguana-4.jpg" alt="foto" class="galeria" /></a> 
+      <!-- Menú Escritorio -->
+      <nav class="nav-links" aria-label="Navegación principal">
+        <a href="#inicio" class="nav-link active">Inicio</a>
+        <a href="#descripcion" class="nav-link">Anatomía & Especie</a>
+        <a href="#caracteristicas" class="nav-link">Características</a>
+        <a href="#galeria" class="nav-link">Galería Visual</a>
+        <a href="#conservacion" class="nav-link">Conservación</a>
+      </nav>
+
+      <!-- Acciones de Navegación -->
+      <div class="nav-actions">
+        <a href="https://github.com/josmperdomo/project-iguanas" target="_blank" rel="noopener noreferrer" class="btn-github" title="Ver repositorio en GitHub">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+          </svg>
+          <span>Repositorio</span>
+        </a>
+
+        <!-- Botón Móvil -->
+        <button class="btn-mobile-toggle" id="mobileToggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
     </div>
 
-    <footer class="pie">
-      <div class="infopie">
-        <p>Para conocer mas del creador visita el siguiente enlace <span>GitHub</span> 
-           <a class="linkgithub" href="https://github.com/"> @josperdev</a>
-        </p>
+    <!-- Menú Desplegable Móvil -->
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#inicio" class="nav-link">Inicio</a>
+      <a href="#descripcion" class="nav-link">Anatomía & Especie</a>
+      <a href="#caracteristicas" class="nav-link">Características</a>
+      <a href="#galeria" class="nav-link">Galería Visual</a>
+      <a href="#conservacion" class="nav-link">Conservación</a>
+      <a href="https://github.com/josmperdomo/project-iguanas" target="_blank" rel="noopener noreferrer" class="btn-github" style="display: inline-flex; justify-content: center;">
+        <span>Ver en GitHub</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="section hero" id="inicio">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Columna Izquierda: Mensaje y Estadísticas -->
+          <div class="hero-content">
+            <div class="hero-badge-group">
+              <span class="pulse-badge">
+                <span class="pulse-dot"></span>
+                Herpetología & Fauna Neotropical
+              </span>
+              <span class="section-tag" style="margin-bottom: 0;">Familia Iguanidae</span>
+            </div>
+
+            <h1 class="hero-title">
+              El Fascinante Reptil de las <br />
+              <span class="gradient-text">Copas Tropicales</span>
+            </h1>
+
+            <p class="hero-description">
+              Pertenecientes a los bosques húmedos y ecosistemas costeros de América, las iguanas son maestros de la adaptación solar, poseedoras de visión especializada y un porte imponente que preserva la esencia prehistórica en la naturaleza actual.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#descripcion" class="btn-primary">
+                <span>Explorar Anatomía</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <a href="#galeria" class="btn-secondary">
+                <span>Ver Galería Fotográfica</span>
+              </a>
+            </div>
+
+            <!-- Datos Rápidos -->
+            <div class="hero-stats">
+              <div class="stat-item">
+                <span class="stat-number">15cm – 2m</span>
+                <span class="stat-label">Longitud Total</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">Hasta 15 kg</span>
+                <span class="stat-label">Peso Corporal</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">20+ Años</span>
+                <span class="stat-label">Esperanza de Vida</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">100% Solar</span>
+                <span class="stat-label">Termorregulación</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Columna Derecha: Tarjeta Visual Hero -->
+          <div class="hero-visual-card">
+            <div class="hero-main-img-wrap">
+              <img src="assets/img/bg-header.jpg" alt="Iguana verde en hábitat tropical" class="hero-main-img" />
+            </div>
+
+            <!-- Insignia Flotante -->
+            <div class="hero-floating-badge">
+              <div class="floating-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <div>
+                <div class="floating-text-title">Especie Tropical Protegida</div>
+                <div class="floating-text-sub">Orden Squamata • Suborden Iguania</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="pie2">
-        <p class="copyright">
-          Todos los derechos reservados, 2022 TiendaMuebles &copy; | Developer by
-          <a class="linkgithub" href="https://github.com/josperdev" target="_blank" rel="noopener noreferrer" title="GitHub josperdev">Jose Manuel Perdomo</a> 
-        </p>
+    </section>
+
+    <!-- SECCIÓN ANATOMÍA & DESCRIPCIÓN -->
+    <section class="section" id="descripcion">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Morfología & Comportamiento</span>
+          <h2 class="section-title">Anatomía y <span class="highlight">Ciclo de Vida</span></h2>
+          <p class="section-subtitle">
+            Conoce la evolución biológica que permite a este reptil dominar las alturas de los árboles y regular su temperatura con precisión asombrosa.
+          </p>
+        </div>
+
+        <div class="overview-card">
+          <!-- Textos descriptivos -->
+          <div class="overview-content">
+            <div class="overview-paragraphs">
+              <p>
+                La <strong>iguana</strong> es un reptil perteneciente a la familia <em>Iguanidae</em>. Su tamaño promedio oscila entre los 15 cm al nacer hasta alcanzar impresionantes ejemplares de hasta <strong>2 metros de largo</strong> con un peso que llega a los <strong>15 kg</strong> en su etapa adulta.
+              </p>
+              <p>
+                Durante su juventud presentan una coloración vibrante en tonos <strong>verde esmeralda</strong> para mimetizarse eficazmente entre las hojas tiernas. Al madurar, su piel adopta matices grisáceos, pardos y anaranjados, desarrollando prominentes <strong>crestas dorsales espinosas</strong> que protegen su columna de depredadores aéreos.
+              </p>
+              <p>
+                Su dieta evoluciona con la edad: mientras que los ejemplares jóvenes consumen pequeños insectos ricos en proteínas, la mayor parte de su vida adulta son estrictamente <strong>herbívoras y folívoras</strong>. Habitan en densos bosques tropicales y húmedos con abundante vegetación.
+              </p>
+            </div>
+
+            <!-- Mini píldoras de características -->
+            <div class="overview-features-list">
+              <div class="feature-pill">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+                </svg>
+                <div>
+                  <div class="feature-pill-title">Termorregulación Activa</div>
+                  <div class="feature-pill-desc">Dependencia del sol matutino</div>
+                </div>
+              </div>
+
+              <div class="feature-pill">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
+                  <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
+                </svg>
+                <div>
+                  <div class="feature-pill-title">Dieta Folívora</div>
+                  <div class="feature-pill-desc">Hojas, flores y frutos maduros</div>
+                </div>
+              </div>
+
+              <div class="feature-pill">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <div>
+                  <div class="feature-pill-title">Garras Trepadoras</div>
+                  <div class="feature-pill-desc">Adherencia superior a ramas altas</div>
+                </div>
+              </div>
+
+              <div class="feature-pill">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14.93V18a1 1 0 0 1-2 0v-1.07A7 7 0 0 1 5.07 11H4a1 1 0 0 1 0-2h1.07A7 7 0 0 1 11 3.07V2a1 1 0 0 1 2 0v1.07A7 7 0 0 1 18.93 9H20a1 1 0 0 1 0 2h-1.07A7 7 0 0 1 13 16.93z"></path>
+                </svg>
+                <div>
+                  <div class="feature-pill-title">Excelente Natación</div>
+                  <div class="feature-pill-desc">Se sumergen para escapar de peligros</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Imagen lateral ilustrativa -->
+          <div class="overview-visual">
+            <div class="overview-img-wrap">
+              <img src="assets/img/iguana-1.jpg" alt="Detalle de la cabeza y cresta de una iguana" class="overview-img" />
+              <div class="img-badge-overlay">Iguana iguana • Ejemplar Maduro</div>
+            </div>
+          </div>
+        </div>
       </div>
-    </footer>
-  </body>
+    </section>
+
+    <!-- SECCIÓN CARACTERÍSTICAS BIOLÓGICAS (3 Tarjetas Principales) -->
+    <section class="section" id="caracteristicas" style="background-color: var(--bg-surface); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Supervivencia & Sensibilidad</span>
+          <h2 class="section-title">Rasgos <span class="highlight">Biológicos Únicos</span></h2>
+          <p class="section-subtitle">
+            Tres adaptaciones fisiológicas que convierten a la iguana en una de las criaturas más sorprendentes del reino de los saurópsidos.
+          </p>
+        </div>
+
+        <div class="characteristics-grid">
+          <!-- Tarjeta 1: Tercer Ojo -->
+          <article class="char-card char-card-1">
+            <div class="char-icon-box" style="--icon-bg: #e6faf8; --icon-color: #0ea5a4;">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+            </div>
+            <h3 class="char-title">El Tercer Ojo (Ojo Parietal)</h3>
+            <p class="char-text">
+              Poseen un órgano fotorreceptor transparente en la parte superior del cráneo conocido como <em>ojo parietal</em>. No crea imágenes detalladas, pero percibe gradientes de luz solar y movimientos cenitales, alertando inmediatamente ante aves rapaces y regulando sus ciclos circadianos.
+            </p>
+            <div class="char-footer">
+              <span class="char-tag">Sensor Fotosensible</span>
+              <a href="https://es.wikipedia.org/wiki/Ojo_parietal" target="_blank" rel="noopener noreferrer" class="char-link" title="Leer más sobre el ojo parietal">
+                <span>Saber más</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Tarjeta 2: Naturaleza Pacífica -->
+          <article class="char-card char-card-2">
+            <div class="char-icon-box" style="--icon-bg: #e6f6ee; --icon-color: #0d6b52;">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 11V6a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v0"></path>
+                <path d="M14 10V4a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v2"></path>
+                <path d="M10 10.5V6a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v8"></path>
+                <path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"></path>
+              </svg>
+            </div>
+            <h3 class="char-title">Conducta Serena & Territorial</h3>
+            <p class="char-text">
+              A pesar de sus potentes garras y cola en forma de látigo, son animales predominantemente pacíficos y solitarios. Su interacción social se basa en rituales visuales: balanceo de cabeza y expansión de su papada gular para delimitar su espacio sin recurrir al combate físico.
+            </p>
+            <div class="char-footer">
+              <span class="char-tag">Etología Pasiva</span>
+              <a href="https://es.wikipedia.org/wiki/Iguana" target="_blank" rel="noopener noreferrer" class="char-link" title="Leer más sobre la conducta de las iguanas">
+                <span>Saber más</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Tarjeta 3: Cambio de Color y Termorregulación -->
+          <article class="char-card char-card-3">
+            <div class="char-icon-box" style="--icon-bg: #fef7ec; --icon-color: #e59b2c;">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+              </svg>
+            </div>
+            <h3 class="char-title">Termorregulación & Camuflaje</h3>
+            <p class="char-text">
+              Aunque no cambian de color como los camaleones, las iguanas modulan su pigmentación cutánea: oscurecen su dermis por las mañanas frías para absorber la radiación infrarroja rápidamente, y aclaran su tono a verdes o dorados al mediodía para evitar el sobrecalentamiento.
+            </p>
+            <div class="char-footer">
+              <span class="char-tag">Cromatología Solar</span>
+              <a href="https://es.wikipedia.org/wiki/Mimetismo" target="_blank" rel="noopener noreferrer" class="char-link" title="Leer sobre adaptación cromática">
+                <span>Saber más</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN GALERÍA VISUAL (Interactivo con Lightbox) -->
+    <section class="section gallery-section" id="galeria">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Registro Fotográfico</span>
+          <h2 class="section-title">Galería de la <span class="highlight">Vida Silvestre</span></h2>
+          <p class="section-subtitle">
+            Haz clic en cualquiera de las fotografías para visualizarlas en alta resolución y conocer los detalles de cada ejemplar en su entorno.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Foto 1 -->
+          <div class="gallery-item" tabindex="0" role="button" aria-label="Ampliar fotografía de iguana en follaje">
+            <div class="gallery-thumb-wrap">
+              <img src="assets/img/iguana-2.jpg" alt="Iguana verde descansando en rama de árbol tropical" class="gallery-thumb" />
+              <div class="zoom-indicator">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+              <div class="gallery-overlay">
+                <span class="gallery-badge">Mimetismo Arbóreo</span>
+                <div class="gallery-caption-title">Iguana Verde en Dosel</div>
+                <div class="gallery-caption-sub">Selva tropical húmeda • Camuflaje activo</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Foto 2 -->
+          <div class="gallery-item" tabindex="0" role="button" aria-label="Ampliar fotografía de primer plano de iguana">
+            <div class="gallery-thumb-wrap">
+              <img src="assets/img/iguana-3.jpg" alt="Primer plano de textura de escamas y pupila de iguana" class="gallery-thumb" />
+              <div class="zoom-indicator">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+              <div class="gallery-overlay">
+                <span class="gallery-badge">Detalle Macro</span>
+                <div class="gallery-caption-title">Escamas & Papada Gular</div>
+                <div class="gallery-caption-sub">Estructura dérmica protectora de queratina</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Foto 3 -->
+          <div class="gallery-item" tabindex="0" role="button" aria-label="Ampliar fotografía de iguana en roca soleada">
+            <div class="gallery-thumb-wrap">
+              <img src="assets/img/iguana-4.jpg" alt="Iguana tomando sol para regular su calor corporal" class="gallery-thumb" />
+              <div class="zoom-indicator">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+              <div class="gallery-overlay">
+                <span class="gallery-badge">Asoleamiento</span>
+                <div class="gallery-caption-title">Absorción Térmica</div>
+                <div class="gallery-caption-sub">Basking solar matutino para metabolismo óptimo</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN CONSERVACIÓN & ECOLOGÍA -->
+    <section class="section" id="conservacion">
+      <div class="container">
+        <div class="conservation-banner">
+          <div>
+            <span class="conservation-tag">Importancia Ecológica</span>
+            <h2 class="conservation-title">Protegiendo los Ecosistemas Neotropicales</h2>
+            <p class="conservation-text">
+              Las iguanas son polinizadoras secundarias y grandes dispersoras de semillas en los bosques de Centro y Sudamérica. Preservar sus hábitats riparios y de selva tropical es fundamental para salvaguardar la biodiversidad de todo el continente.
+            </p>
+            <div class="conservation-actions">
+              <a href="https://github.com/josmperdomo" target="_blank" rel="noopener noreferrer" class="btn-white">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <span>Conocer Más Proyectos</span>
+              </a>
+              <a href="#inicio" class="btn-secondary" style="border: none; background: rgba(255,255,255,0.18); color: #ffffff;">
+                <span>Volver al Inicio</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="conservation-facts-box">
+            <div class="eco-fact">
+              <div class="eco-fact-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </div>
+              <div>
+                <div class="eco-fact-title">Dispersión de Semillas</div>
+                <div class="eco-fact-sub">Favorecen la germinación de árboles frutales nativos.</div>
+              </div>
+            </div>
+
+            <div class="eco-fact">
+              <div class="eco-fact-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </div>
+              <div>
+                <div class="eco-fact-title">Especie CITES II</div>
+                <div class="eco-fact-sub">Comercio regulado a nivel global para prevenir tráfico ilegal.</div>
+              </div>
+            </div>
+
+            <div class="eco-fact">
+              <div class="eco-fact-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </div>
+              <div>
+                <div class="eco-fact-title">Bioindicador Saludable</div>
+                <div class="eco-fact-sub">Su presencia refleja bosques tropicales en equilibrio hídrico.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- LIGHTBOX MODAL PARA IMÁGENES -->
+  <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Visualizador de fotografía ampliada">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar vista ampliada">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+      <img src="" alt="" class="lightbox-img" id="lightboxImg" />
+      <div class="lightbox-info">
+        <div>
+          <div class="lightbox-title" id="lightboxTitle">Título de la Fotografía</div>
+          <div class="lightbox-desc" id="lightboxDesc">Descripción de la especie y detalles ecológicos.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER PROFESIONAL -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Marca y Bio Breve -->
+        <div class="footer-brand">
+          <a href="#inicio" class="brand">
+            <div class="brand-icon-box">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"></path>
+                <path d="M7 10h.01"></path>
+                <path d="M17 10h.01"></path>
+                <path d="M7 15c1.5 2 4.5 2 6 0"></path>
+              </svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-title">IGUANAS</span>
+              <span class="brand-sub">Fauna Tropical • Iguanidae</span>
+            </div>
+          </a>
+          <p>
+            Proyecto web temático sobre herpetología y preservación de vida silvestre. Diseñado con una arquitectura moderna, diseño responsivo y estética botánica limpia.
+          </p>
+          <div class="footer-social-wrap">
+            <a href="https://github.com/josmperdomo" target="_blank" rel="noopener noreferrer" class="social-circle-btn" aria-label="GitHub de Jose Perdomo">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/jose-manuel-perdomo-459179138/" target="_blank" rel="noopener noreferrer" class="social-circle-btn" aria-label="LinkedIn de Jose Perdomo">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+            <a href="mailto:perdomomarcanojose@outlook.com" class="social-circle-btn" aria-label="Correo de contacto">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Enlaces Rápidos de Navegación -->
+        <div>
+          <h4 class="footer-col-title">Secciones</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#inicio" class="footer-nav-link">Inicio</a></li>
+            <li><a href="#descripcion" class="footer-nav-link">Anatomía & Especie</a></li>
+            <li><a href="#caracteristicas" class="footer-nav-link">Características Biológicas</a></li>
+            <li><a href="#galeria" class="footer-nav-link">Galería Fotográfica</a></li>
+            <li><a href="#conservacion" class="footer-nav-link">Conservación Ambiental</a></li>
+          </ul>
+        </div>
+
+        <!-- Recursos y Referencias -->
+        <div>
+          <h4 class="footer-col-title">Documentación</h4>
+          <ul class="footer-nav-list">
+            <li><a href="https://es.wikipedia.org/wiki/Iguana" target="_blank" rel="noopener noreferrer" class="footer-nav-link">Ficha en Wikipedia</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Ojo_parietal" target="_blank" rel="noopener noreferrer" class="footer-nav-link">El Ojo Parietal</a></li>
+            <li><a href="https://github.com/josmperdomo/project-iguanas" target="_blank" rel="noopener noreferrer" class="footer-nav-link">Código Fuente en GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Barra Inferior de Copyright -->
+      <div class="footer-bottom">
+        <div class="copyright-text">
+          © 2026 <strong>Project Iguanas</strong> • Desarrollado por <a href="https://github.com/josmperdomo" target="_blank" rel="noopener noreferrer">Jose Manuel Perdomo</a>. Todos los derechos reservados.
+        </div>
+        <button class="back-to-top-btn" id="backToTop" aria-label="Volver arriba">
+          <span>Subir al inicio</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/app.js"></script>
+</body>
 </html>
